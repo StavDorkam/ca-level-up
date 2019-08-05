@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("/assets/fonts/Roboto/Roboto-Regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url("/assets/fonts/Poppins/Poppins-Medium.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url("/assets/fonts/Lato/Lato-Regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url("/assets/fonts/Montserrat/Montserrat-Regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url("/assets/fonts/Montserrat/Montserrat-Bold.ttf") format("ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'HanGroBlack';
+    src: url("/assets/fonts/Hanken_Grotesk/HankenGrotesk-Black.ttf") format("ttf");
+    font-weight: bold;
+}
+
+$HanGroBlack: 'HanGroBlack', helvetica, arial, sans-serif;
+
+$Montserrat-Regular: 'Montserrat-Regular', sans-serif;
+$Montserrat-Bold: 'Montserrat-Bold', sans-serif;
+
+.strong {
+    font-weight: bold;
+}

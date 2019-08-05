@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato';
+    font-size: 14px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    @include for-normal-layout {
+        font-size: 16px;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+body {
+    // For floating header:
+    // margin: 10px 30px 0 30px;
+    margin: 0;
+    height: 100vh;
+    background-color: $tpGray;
+    color: $tpBlack1;
+    // padding-top: 50px;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: inherit;
+}
